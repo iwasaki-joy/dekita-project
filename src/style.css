@@ -328,3 +328,8 @@ footer>p>.footer-project-name{transform:none}
 
 /* Override the mobile heading rule that expands all direct div children. */
 .section-heading>.year-picker{flex:0 0 auto;width:fit-content;max-width:100%;margin-left:auto;align-self:flex-end}
+
+/* Wrap multiple courses and separate the tags from the character portrait. */
+.story-course-tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:18px}
+.story-course-tags .story-course-label{margin-bottom:0;gap:8px}
+.modal-character + .story-course-tags{margin-top:16px}
